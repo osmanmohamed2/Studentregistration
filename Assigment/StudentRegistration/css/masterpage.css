@@ -1,0 +1,34 @@
+﻿
+nav ul,li {
+      font-size:larger;
+        color:#808080;
+    display:inline;
+    padding-left:20px;
+   
+    }
+ nav a:link {
+  text-decoration:none;
+}
+    nav a:hover {
+        background-color:blue;
+        padding:1px;
+
+    }
+     nav a:active {
+         color:white
+}
+
+footer {
+    display:flexbox;
+    padding-left:20px;
+    color:white;
+    background-color:blue;
+    font-size:x-large
+}
+#main {
+    font-size:20px;
+    font-family: Large, Century Gothic;
+    Color: Navy;
+    letter-spacing: 1.8px;
+    padding:40px;
+}

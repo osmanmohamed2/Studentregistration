@@ -1,0 +1,47 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="StudentRegistration.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/masterpage.css" rel="stylesheet" />
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a href="home.aspx">Home</a>
+                </li>
+                <li>
+                    <a href="AboutUs.aspx">AboutUs</a>
+                </li>
+                 <li>
+                    <a href="StudentRegistration.aspx">StudentRegistration</a>
+                </li>
+                
+                <li>
+                    <a href="Defualt.aspx">Login</a>
+                </li>
+               </ul>
+        </nav>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+         
+    </div>
+    </form>
+        <footer>
+
+        <address>
+            Conntact us
+            Tell:+252678443322&nbsp;&nbsp;&nbsp;&nbsp; facebook:@Tawakal School&nbsp;&nbsp;&nbsp;&nbsp; Gmail:infoTawakal@gmail.com
+        </address>
+    </footer>
+    </body>
+</html>
